@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rl_det">
+
+        <TextView
+            android:id="@+id/tv_prod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:text="Product :"
+            android:textColor="@color/color_details"/>
+
+        <TextView
+
+            android:id="@+id/tv_vicinity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/tv_prod"
+            android:layout_marginLeft="10dp"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:text="Vicinity :"
+            android:textColor="@color/color_details"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_custname"
+            android:layout_below="@+id/tv_vicinity"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Customer :"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="@color/color_details"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_open"
+            android:layout_below="@+id/tv_custname"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Open :"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="@color/color_details"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_rating"
+            android:layout_below="@+id/tv_open"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Rating :"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="@color/color_details"
+            />
+
+
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/rl_det"
+        android:background="@color/color_divider"></View>
+
+
+
+
+</RelativeLayout>
